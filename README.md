@@ -1,71 +1,67 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
 
-![blueprint](images/blueprint.png)
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+![Picture1reel](./images/Picture1reel.jpg)
 
-## Repository Contents
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+# Microsoft Movie Analysis 
+**Author: Carla Kirby: [Carla Kirby](mailto:ra_carlajoy@yahoo.com)
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `data` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
 
-## Instructions For Using This Repository
 
-### Fork This Repository
+## Overview 
 
-**For a group project**, have only one team member do these steps:
+This project analyzes the resource needs of the [Microsoft Movie Analysis Project]. The data contained in this analysis has been sourced from IMDb's website. IMDb is a credible movie streaming service which obtains extreme amounts of metadata. From the zipped CSV data files I have chosen to select (2) datasets containing critical details necessary to complete an accurate analysis in efforts to solve the business problem. The information contained relates directly to genres, total domestic gross at time of release and spans across an 8 year period.
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+## Business Problem
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. THis report will translate those findings into actionable insight for the head of Microsoft's new movie studio can use to help decide what type of films to create. 
 
-### Work In Your Fork Of This Repository
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+## Data
 
-### Use The Slide Template
+A few of the variables included are movie titles, year of release, domestic gross totals, foreign gross totals, run time minutes, ID's, and the studio who produced the films. The target variable I have chosen is domestic gross value and genre. It is necessary to advise the head of Microsoft Studios the highest box office gross values in conjunction with the associated types of films to clearly indicate what the national favourites are. 
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
 
-### Tidy Up Your Project
+## Methods
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
-   - Any unused images in the `images` folder
+This project uses descriptive analysis, comparing domestic gross values against popular genres. We also take a deeper dive intounderstand what Studio is producing these films and how the trends have performed over a span of time. 
 
-### Submit Your Project
+## Visualization 
 
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+![bar1](./images/bar1.png)
 
-***
-### Notes
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+
+## Results 
+
+We are able to observe that the most popular genres at the box office are: Action, Adventure and Sci-Fi films. In addition Marvel Studios are the studio who produced 7 of the 10 Top domestically grossing films from our results. 
+
+
+
+## Conclusions 
+
+Although there are many more dramas and documentaries listed, the highest grossing domestic amounts are Adventure, Action and Sci-Fi films.
+
+This analysis leads to three recommendations to helping Microsoft understand what genres are performing best. 
+    - Action Films: These films are grossing at number 1 as being the most popular and frequently paid for and visited films
+    - Adventure Films: In a close second, Adventure films usually couple with the action genre and will produce high domestic gross. 
+    - Sci-Fi:Sci-Fi movies will be a great choice of genre aswell. 
+    
+
+
+ ## Next Steps
+ 
+Blending genres will be more interesting and encourage movie goers to watch in the box office. 
+ 
+Finally, BV - Marvel Studios (aka Walt Disney aka Buena Vista Studios) definately know how to create box office hits. 
+
+Microsoft should conduct in depth research into BV's success method and how they formulate their movies which is indicative of series style films. 
+
+
+## For More Information 
+
+Please review our full analysis in the Jupyter Notebook[Jupyter Notebook] (./MicrosoftMovieAnalysisProject.ipynb) or our [presentation](./presentation.pdf).
+
+For more information contact **Carla Kirby, ra_carlajoy@yahoo.com** 
+  
