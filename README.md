@@ -4,7 +4,7 @@
 
 
 # Microsoft Movie Analysis 
-**Author: Carla Kirby: [Carla Kirby](mailto:ra_carlajoy@yahoo.com)
+**Author: [Carla Kirby](mailto:ra_carlajoy@yahoo.com)
 
 
 
